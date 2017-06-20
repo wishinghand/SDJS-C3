@@ -4,14 +4,14 @@ div
 
   .container
     .container__inner.section.post-section
-      h1 Speakers
-      speakers-list(:speakers="speakers")
-      .center
-        nuxt-link(to="/program")
-          button.button.speaker-button Read the program
+      <!-- h1 Speakers -->
+      <!-- speakers-list(:speakers="speakers") -->
+      <!-- .center -->
+        <!-- nuxt-link(to="/program") -->
+          <!-- button.button.speaker-button Read the program -->
     tickets-section#tickets
     venue-section
-    newsletter-section
+    <!-- newsletter-section -->
 
     organizers-section
 </template>
@@ -19,7 +19,7 @@ div
 <script>
 import SpeakersList from '~components/SpeakersList'
 import HeroSection from '~components/Hero'
-import NewsletterSection from '~components/Newsletter'
+// import NewsletterSection from '~components/Newsletter'
 import OrganizersSection from '~components/Organizers'
 import SubmitTalks from '~components/SubmitTalks'
 import TicketsSection from '~components/Tickets'
@@ -29,7 +29,7 @@ import speakers from '../content/speakers/speaker-list'
 export default {
   components: {
     HeroSection,
-    NewsletterSection,
+    // NewsletterSection,
     OrganizersSection,
     SpeakersList,
     SubmitTalks,
@@ -37,7 +37,7 @@ export default {
     VenueSection
   },
   head: {
-    title: 'VueConf 2017 – 21–23 June, 2017 in Wrocław, Poland'
+    title: 'SDJS Hackathon 2017 – Sept 15-16, 2017'
   },
   data () {
     return {

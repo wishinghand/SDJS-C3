@@ -5,21 +5,22 @@
     h1
       | Venue
     .half
-      img(src="~assets/img/nhcinema.jpg" alt="New Horizons Cinema, Wrocław")
+      img(src="~static/img/learnAcademy-1.jpg" alt="Learn Academy, San Diego")
+      img(src="~static/img/learnAcademy-2.jpg" alt="Learn Academy, San Diego")
     .half.text-left
-      h2: strong New Horizons Cinema
+      h2: strong Learn Academy
       p
-        | The conference (Juen 22–23) will take place in the
-        strong  New Horizons Cinema
-        | , the largest art-cinema in Poland.
+        | The hackathon (September 15-16) will take place in the
+        strong  Learn Academy 
+        | Campus, near the heart of downtown San Diego.
 
       p
         strong Address:
         br
-        | Kazimierza Wielkiego 19a-21
+        | 704 J St
         br
-        | 50-077 Wrocław, Poland
-      a.button.button--dark(href="https://goo.gl/maps/wDdmhQGQb9N2", target="_BLANK") SEE THE MAP
+        | San Diego, CA 92101
+      a.button.button--dark(href="https://www.google.com/maps/place/LEARN/@32.70961,-117.1579991,15z/data=!4m2!3m1!1s0x0:0x4cb38acc42b18a7e?sa=X&ved=0ahUKEwj62ou2rcbUAhUIzGMKHZE-A5sQ_BIIswUwaQ", target="_BLANK") SEE THE MAP
 </template>
 
 <script>

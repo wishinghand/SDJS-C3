@@ -3,11 +3,11 @@
     .hero-banner__content
       logo-type
       h2.hero-banner__subheader
-        strong New Horizons Cinema
+        strong Learn Academy
         br
-        | Wrocław, Poland • June 21-23, 2017
+        | San Diego, California • September 15-16, 2017
       h2.hero-banner__subheader.hero-banner__subheader--last
-        | The first Official Vue.js Conference in the world!
+        | The first official sanDiegoJS Hackathon!
       a.post-section__button.button(href="https://events.zippydesk.com/vueconf-2017/register", @click="trackTicketsEvent")
         | Get the tickets!
 </template>

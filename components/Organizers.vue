@@ -6,17 +6,25 @@
 
     .organizers
       .organizer
-        img.organizer__image(src="~static/img/evan.jpg" alt="Evan You")
+        img.organizer__image(src="~static/img/jason.jpg" alt="Jason Land")
         .organizer__title
-          | Evan You
+          | Jason Land
         .organizer__social
-          a.icon.icon--github(href="https://github.com/yyx990803" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
+          a.icon.icon--github(href="https://github.com/wishinghand" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/wishinghand" target="_blank")
+
+      .organizer
+        img.organizer__image(src="~static/img/sarah.jpg" alt="Sarah Haroon")
+        .organizer__title
+          | Sarah Haroon
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/wishinghand" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/wishinghand" target="_blank")
 
       .organizer.organizer--last
-        img.organizer__image(src="~assets/img/damian.jpg" alt="Damian Dulisz")
+        img.organizer__image(src="~static/img/valerie.jpg" alt="Valerie Smith")
         .organizer__title
-          | Damian Dulisz
+          | Valerie Smith
         .organizer__social
           a.icon.icon--github(href="https://github.com/shentao" target="_blank")
           a.icon.icon--twitter(href="https://twitter.com/damiandulisz" target="_blank")

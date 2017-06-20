@@ -7,8 +7,8 @@ footer.footer
         li
           | Twitter:
           = ' '
-          a(href="https://twitter.com/vueconf" target="_blank")
-            span.at VueConf
+          a(href="https://twitter.com/sandiegojs" target="_blank")
+            span.at sandiegojs
         li
           | Email:
           a  vueconf
@@ -24,14 +24,11 @@ footer.footer
 
     .footer__bottom
       | Proudly supported by
-      strong  Evan You
+      strong  SPONSORING COMPANY
       |  and
-      a(href="https://monterail.com"): strong.footer__logo
+      a(href="http://sandiegojs.org/"): strong.footer__logo
       .footer__copyright
-        | Copyright 2016-2017 Monterail. All rights reserved.
-        br
-      .footer__legal
-        | Monterail.com Sp. z o.o. with its registered office in Wrocław, at 27-29 Oławska street, 50-123 Wrocław, Poland, registered with the Register of Entrepreneurs of the National Court Register maintained by the District Court of Wrocław-Fabryczna in Wrocław, VI Commercial Division of the National Court Register, under entry number KRS 0000357415, NIP [taxpayer ID] 778-147-18-20, REGON [enterprise ID] 301447685, share capital 5.000 PLN, e-mail vueconf@monterail.com.
+        | Copyright 2016-2017 sanDiegoJS. All rights reserved.
 </template>
 
 <style lang="sass">
