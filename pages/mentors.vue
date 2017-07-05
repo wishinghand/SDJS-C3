@@ -2,7 +2,7 @@
 .container
   .container__inner.post-section
     h1
-      | Speakers
+      | Mentors
 
     speakers-list(:speakers="speakers", :adjust-img-url="true")
 

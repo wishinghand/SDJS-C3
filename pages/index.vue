@@ -4,8 +4,8 @@ div
 
   .container
     .container__inner.section.post-section
-      <!-- h1 Speakers -->
-      <!-- speakers-list(:speakers="speakers") -->
+      h1 Mentors
+      <!-- mentors-list(:mentors="mentors") -->
       <!-- .center -->
         <!-- nuxt-link(to="/program") -->
           <!-- button.button.speaker-button Read the program -->
@@ -17,21 +17,21 @@ div
 </template>
 
 <script>
-import SpeakersList from '~components/SpeakersList'
+import MentorsList from '~components/MentorsList'
 import HeroSection from '~components/Hero'
 // import NewsletterSection from '~components/Newsletter'
 import OrganizersSection from '~components/Organizers'
 import SubmitTalks from '~components/SubmitTalks'
 import TicketsSection from '~components/Tickets'
 import VenueSection from '~components/Venue'
-import speakers from '../content/speakers/speaker-list'
+import mentors from '../content/mentors/mentor-list'
 
 export default {
   components: {
     HeroSection,
     // NewsletterSection,
     OrganizersSection,
-    SpeakersList,
+    MentorsList,
     SubmitTalks,
     TicketsSection,
     VenueSection
@@ -41,7 +41,7 @@ export default {
   },
   data () {
     return {
-      speakers
+      mentors
     }
   }
 }
