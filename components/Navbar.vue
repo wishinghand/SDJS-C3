@@ -11,11 +11,11 @@
     nav
       ul.navbar-nav
         li.navbar-nav__item
-          nuxt-link(to="/speakers")
-            | Speakers
+          nuxt-link(to="/mentors")
+            | Mentors
         li.navbar-nav__item
           nuxt-link(to="/workshops")
-            | Workshops
+            | Sponsors
         li.navbar-nav__item
           nuxt-link(to="/program")
             | Program

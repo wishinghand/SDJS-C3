@@ -4,7 +4,7 @@
     h1
       | Mentors
 
-    speakers-list(:speakers="speakers", :adjust-img-url="true")
+    mentors-list(:mentors="mentors", :adjust-img-url="true")
 
     .center
       nuxt-link(to="/program")
@@ -15,7 +15,7 @@
 
     .post-section.center.cfp-section#apply
 
-      include:markdown-it ../content/speakers/cfp.md
+      include:markdown-it ../content/mentors/cfp.md
 
       a.post-section__button.button(
         href="https://docs.google.com/forms/d/e/1FAIpQLSdtbxBpV0j_zCnELXQuIkeGH8x6gaOWE0J8tTsAdpa0O5MYOw/viewform"
@@ -28,17 +28,17 @@
 </template>
 
 <script>
-import SpeakersList from '../components/SpeakersList'
-import speakers from '../content/speakers/speaker-list'
+import MentorsList from '../components/MentorsList'
+import mentors from '../content/mentors/mentor-list'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Speakers'
+    title: 'VueConf 2017 | Mentors'
   },
-  components: { SpeakersList },
+  components: { MentorsList },
   data () {
     return {
-      speakers
+      mentors
     }
   }
 }
