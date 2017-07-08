@@ -3,32 +3,32 @@
   modal(v-if="modalVisible", @close="modalVisible = false")
     div(slot="body")
       .speaker__large
-        img.speaker__image(:src="image", :alt="speaker.name")
+        img.speaker__image(:src="image", :alt="mentor.name")
         .speaker__aside
           .speaker__title
-            | {{ speaker.name }}
+            | {{ mentor.name }}
           .speaker__subtitle
-            | {{ speaker.title }}
+            | {{ mentor.title }}
           .speaker__social
-            a.icon.icon--github(v-if="speaker.github", :href="speaker.github" target="_blank")
-            a.icon.icon--gitlab(v-if="speaker.gitlab", :href="speaker.gitlab" target="_blank")
-            a.icon.icon--twitter(v-if="speaker.twitter", :href="speaker.twitter" target="_blank")
+            a.icon.icon--github(v-if="mentor.github", :href="mentor.github" target="_blank")
+            a.icon.icon--gitlab(v-if="mentor.gitlab", :href="mentor.gitlab" target="_blank")
+            a.icon.icon--twitter(v-if="mentor.twitter", :href="mentor.twitter" target="_blank")
         .speaker__bio
-          | {{ speaker.bio }}
-        blockquote.speaker__quote(v-if="speaker.quote")
-          | {{ speaker.quote }}
-          cite {{ speaker.name }}
+          | {{ mentor.bio }}
+        blockquote.speaker__quote(v-if="mentor.quote")
+          | {{ mentor.quote }}
+          cite {{ mentor.name }}
   .speaker(@click="showDetails")
-    img.speaker__image(:src="image", :alt="speaker.name")
+    img.speaker__image(:src="image", :alt="mentor.name")
     .speaker__aside
       .speaker__title
-        | {{ speaker.name }}
+        | {{ mentor.name }}
       .speaker__subtitle
-        | {{ speaker.title }}
+        | {{ mentor.title }}
       .speaker__social
-        a.icon.icon--gitlab(@click.stop="", v-if="speaker.gitlab", :href="speaker.gitlab" target="_blank")
-        a.icon.icon--github(@click.stop="", v-if="speaker.github", :href="speaker.github" target="_blank")
-        a.icon.icon--twitter(@click.stop="", v-if="speaker.twitter", :href="speaker.twitter" target="_blank")
+        a.icon.icon--gitlab(@click.stop="", v-if="mentor.gitlab", :href="mentor.gitlab" target="_blank")
+        a.icon.icon--github(@click.stop="", v-if="mentor.github", :href="mentor.github" target="_blank")
+        a.icon.icon--twitter(@click.stop="", v-if="mentor.twitter", :href="mentor.twitter" target="_blank")
 
       button.button-secondary(@click.stop="showDetails") Learn more
 </template>
@@ -39,7 +39,7 @@ import Modal from './Modal'
 export default {
   components: { Modal },
   props: {
-    speaker: {
+    mentor: {
       type: Object,
       required: true
     },
@@ -58,15 +58,15 @@ export default {
       this.modalVisible = true
       ga('send', 'event', {
         eventAction: 'click',
-        eventCategory: `Speaker details ${this.speaker.name}`
+        eventCategory: `Speaker details ${this.mentor.name}`
       })
     }
   },
   computed: {
     image () {
       return this.adjustImgUrl
-        ? `/../${this.speaker.img}`
-        : this.speaker.img
+        ? `/../${this.mentor.img}`
+        : this.mentor.img
     }
   }
 }

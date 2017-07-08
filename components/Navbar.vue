@@ -2,6 +2,8 @@
 .navbar
   .navbar__container
     nuxt-link.navbar__logo(to="/")
+      | sanDiego
+      span.logo-accent .js
 
     label#burger(for="burger-target")
         .bar
@@ -14,11 +16,8 @@
           nuxt-link(to="/mentors")
             | Mentors
         li.navbar-nav__item
-          nuxt-link(to="/workshops")
-            | Sponsors
-        li.navbar-nav__item
-          nuxt-link(to="/program")
-            | Program
+          nuxt-link(to="/questions")
+            | FAQ
 
         li.navbar-nav__item
           a.button(
@@ -69,11 +68,14 @@
     justify-content: space-between
 
   .navbar__logo
-    background-image: url('~assets/vueconf_logo.svg')
-    background-size: contain
-    background-repeat: no-repeat
-    width: 260px
-    height: 40px
+    // width: 260px
+    font-size: 2rem
+    font-weight: 700
+    font-family: 'Open Sans', sans-serif
+    color: #777777
+
+    .logo-accent
+      color: #1884C3
 
   .navbar__logo,
   .navbar-nav__item a

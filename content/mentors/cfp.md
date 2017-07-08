@@ -1,5 +1,3 @@
-## Want to become a speaker?
+## Want to become a mentor?
 
 Do you have something great to show? Want to share some knowledge?
-
-**That’s pretty Vuesome!**

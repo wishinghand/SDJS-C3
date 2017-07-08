@@ -11,24 +11,26 @@ footer.footer
             span.at sandiegojs
         li
           | Email:
-          a  vueconf
-            span.at monterail.com
+          a  code_challenge
+            span.at sandiegojs.org
       ul.footer__list.footer__list--small
         h3.footer__header Useful links
-        li: nuxt-link(to="/speakers") Speakers
-        li: nuxt-link(to="/program") Program
+        li: nuxt-link(to="/mentors") Mentors
+        //- li: nuxt-link(to="/program") Program
         li: nuxt-link(to="/workshops") Workshops
         li: nuxt-link(to="/terms") Terms & Conditions
         li: nuxt-link(to="/codeofconduct") Code of Conduct
         li: nuxt-link(to="/privacypolicy") Privacy Policy
 
     .footer__bottom
-      | Proudly supported by
-      strong  SPONSORING COMPANY
-      |  and
-      a(href="http://sandiegojs.org/"): strong.footer__logo
+      | Proudly supported by 
+      //- strong  SPONSORING COMPANY
+      //- |  and 
+      a(href="http://sandiegojs.org/").footer__logo
+        | sanDiego
+        span.logo-accent .js
       .footer__copyright
-        | Copyright 2016-2017 sanDiegoJS. All rights reserved.
+        | Copyright 2016-2017 sanDiego.js  All rights reserved.
 </template>
 
 <style lang="sass">
@@ -50,17 +52,12 @@ footer.footer
 
 .footer__logo
   display: inline-block
-  vertical-align: middle
+  font-size: 1.25em
+  font-weight: 700
+  color: #777777
 
-  &:before
-    content: ''
-    background-image: url('~assets/img/monterail-logotype.svg')
-    margin-left: 6px
-    display: inline-block
-    height: 24px
-    width: 119px
-    background-size: contain
-    background-repeat: no-repeat
+.logo-accent
+  color: #1884C3
 
 .footer__list
   list-style: none

@@ -61,7 +61,7 @@
 <script>
 export default {
   head: {
-    title: 'SDJS Hackathon 2017 | Code of Conduct'
+    title: 'Code of Conduct | SDJS Community Code Challenge'
   }
 }
 </script>

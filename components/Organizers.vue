@@ -21,6 +21,15 @@
           a.icon.icon--github(href="https://github.com/wishinghand" target="_blank")
           a.icon.icon--twitter(href="https://twitter.com/wishinghand" target="_blank")
 
+
+      .organizer
+        img.organizer__image(src="~static/img/sarah.jpg" alt="Sarah Haroon")
+        .organizer__title
+          | Sunny Datko
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/wishinghand" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/wishinghand" target="_blank")
+
       .organizer.organizer--last
         img.organizer__image(src="~static/img/valerie.jpg" alt="Valerie Smith")
         .organizer__title
@@ -34,13 +43,13 @@
           p.post-section__paragraph
             | Organized and supported by
 
-          a.organizers__logo(href="http://monterail.com?utm_campaign=Vue.js&utm_medium=site&utm_source=vjsconf" target="_blank")
-            img(src="~assets/img/monterail-logotype.svg" alt="Monterail")
+          a.organizers__logo(href="http://sandiegojs.org" target="_blank")
+            | sanDiego
+            span.logo-accent .js
 
     .organizers-more
       .organizers-more__text
-        | #[a(href="http://monterail.com?utm_campaign=Vue.js&utm_medium=site&utm_source=vjsconf" target="_blank") Monterail] is a #[strong web development and design agency] based in Poland.
-        | #[br] And we kinda love #[strong Vue]!
+        | #[a(href="http://sandiegojs.org" target="_blank") SanDiego.js] is a 2700+ member strong community full of some amazing people who love JavaScript.
 </template>
 
 <script>
@@ -93,15 +102,18 @@ export default {
 
 .organizer__company
   width: 100%
-  margin: 10px 0
+  margin: 10px auto
 
   @media #{$large-up}
     width: 35%
 
 .organizers__logo
-  img
-    max-width: 233px
-    width: 100%
+  color: $color-text
+  font-size: 3rem
+  font-weight: 700
+
+  .logo-accent
+    color: #1884C3
 
 .organizer__content
   display: inline-block
@@ -135,7 +147,7 @@ export default {
   a
     font-weight: 600
     text-decoration: none
-    color: $color-red
+    color: black
 
   @media #{$large-up}
     font-size: 20px

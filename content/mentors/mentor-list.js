@@ -1,7 +1,7 @@
 export default [
   {
-    "name": "Evan You",
-    "title": "Creator of Vue.js",
+    "name": "John",
+    "title": "Innova",
     "img": "img/evan.jpg",
     "github": "https://github.com/yyx990803",
     "twitter": "https://twitter.com/youyuxi",

@@ -6,7 +6,7 @@
   <nuxt></nuxt>
 
   <footer-section></footer-section>
-  <cookies/>
+  <!-- <cookies/> -->
 </div>
 </template>
 

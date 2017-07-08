@@ -1,13 +1,19 @@
 <template lang="pug">
   .hero-banner
     .hero-banner__content
-      logo-type
+      .hero
+        //- logo-type
+        .robot-emoji 🤖
+        h1 #[strong Community Code Challenge]
+        h2 Rise of the (chat)Bots!
+        hr
+
       h2.hero-banner__subheader
         strong Learn Academy
         br
-        | San Diego, California • September 15-16, 2017
+        | San Diego, California • September 15, 2017
       h2.hero-banner__subheader.hero-banner__subheader--last
-        | The first official sanDiegoJS Hackathon!
+        | The first official SanDiegoJS Community Code Challenge!
       a.post-section__button.button(href="https://events.zippydesk.com/vueconf-2017/register", @click="trackTicketsEvent")
         | Get the tickets!
 </template>
@@ -33,6 +39,21 @@ export default {
 
 <style lang="sass">
 @import ~assets/css/base/helpers
+
+.hero
+  margin-top: 2rem
+
+hr
+  width: 25%
+  height: 0
+  border: 1px solid $color-green--dark
+  margin: 4rem auto
+
+h1
+  margin-bottom: 2rem
+
+.robot-emoji
+  font-size: 6rem
 
 .hero-banner
   text-align: center

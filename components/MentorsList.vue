@@ -1,20 +1,20 @@
 <template lang="pug">
 .speakers-list
   transition-group(name="fade", tag="div")
-    speaker.fade(v-for="speaker of speakersList", :speaker="speaker", :key="speaker", :adjust-img-url="adjustImgUrl")
+    mentor.fade(v-for="mentor of mentorsList", :mentor="mentor", :key="mentor", :adjust-img-url="adjustImgUrl")
 </template>
 
 <script>
-import Speaker from './Speaker'
+import Mentor from './Mentor'
 
 export default {
-  components: { Speaker },
+  components: { Mentor },
   props: {
     limit: {
       type: Number,
       default: 999
     },
-    speakers: {
+    mentors: {
       type: Array,
       required: true
     },
@@ -24,8 +24,8 @@ export default {
     }
   },
   computed: {
-    speakersList () {
-      return this.speakers.slice(0, this.limit)
+    mentorsList () {
+      return this.mentors.slice(0, this.limit)
     }
   }
 }

@@ -41,7 +41,7 @@ import Talk from '../components/Talk'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Workshops'
+    title: 'Workshops | SDJS Community Code Challenge'
   },
   components: { Talk },
   data () {

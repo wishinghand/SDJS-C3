@@ -5,39 +5,40 @@ div
   .container
     .container__inner.section.post-section
       h1 Mentors
-      <!-- mentors-list(:mentors="mentors") -->
-      <!-- .center -->
-        <!-- nuxt-link(to="/program") -->
-          <!-- button.button.speaker-button Read the program -->
+      mentors-list(:mentors="mentors")
+      .center
+        //- nuxt-link(to="/mentors")
+          //- button.button.speaker-button Get to know them
     tickets-section#tickets
     venue-section
-    <!-- newsletter-section -->
+    //- newsletter-section
 
+    sponsors-section
     organizers-section
 </template>
 
 <script>
 import MentorsList from '~components/MentorsList'
 import HeroSection from '~components/Hero'
-// import NewsletterSection from '~components/Newsletter'
 import OrganizersSection from '~components/Organizers'
 import SubmitTalks from '~components/SubmitTalks'
 import TicketsSection from '~components/Tickets'
 import VenueSection from '~components/Venue'
+import SponsorsSection from '~components/Sponsors'
 import mentors from '../content/mentors/mentor-list'
 
 export default {
   components: {
     HeroSection,
-    // NewsletterSection,
     OrganizersSection,
     MentorsList,
     SubmitTalks,
+    SponsorsSection,
     TicketsSection,
     VenueSection
   },
   head: {
-    title: 'SDJS Hackathon 2017 – Sept 15-16, 2017'
+    title: 'SDJS Community Code Challenge'
   },
   data () {
     return {

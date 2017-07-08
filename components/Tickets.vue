@@ -6,7 +6,7 @@
     p
       | First come first served!
       br
-      | The number of tickets is limited - save your seat today and join the first Vue.js community conference in the world.
+      | The number of tickets is limited - save your seat today and join the first SanDiego.js community code challenge.
     .ticket(v-for="ticket in tickets")
       span.ticket__name {{ ticket.name }}
         span.ticket__date {{ ticket.date }}
@@ -93,7 +93,7 @@ export default {
 
 .ticket__date
   padding-left: 10px
-  color: #bbb
+  color: #777777
   line-height: 43px
   font-size: 18px
 

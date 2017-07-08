@@ -65,7 +65,7 @@
 <script>
 export default {
   head: {
-    title: 'VueConf 2017 | Private Policy'
+    title: 'Private Policy | SDJS Community Code Challenge'
   }
 }
 </script>

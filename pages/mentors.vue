@@ -11,7 +11,7 @@
         button.button.speaker-button Read about the talks
 
     h2
-      | More announcements soon!
+      | And more to come!
 
     .post-section.center.cfp-section#apply
 
@@ -33,7 +33,7 @@ import mentors from '../content/mentors/mentor-list'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Mentors'
+    title: 'Mentors | SDJS Community Code Challenge'
   },
   components: { MentorsList },
   data () {
