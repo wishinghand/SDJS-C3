@@ -18,25 +18,25 @@
         .organizer__title
           | Sarah Haroon
         .organizer__social
-          a.icon.icon--github(href="https://github.com/wishinghand" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/wishinghand" target="_blank")
+          a.icon.icon--github(href="https://github.com/sharo-0n" target="_blank")
+          //- a.icon.icon--twitter(href="https://twitter.com/wishinghand" target="_blank")
 
 
       .organizer
-        img.organizer__image(src="~static/img/sarah.jpg" alt="Sarah Haroon")
+        img.organizer__image(src="~static/img/sunny.jpg" alt="Sunny Datko")
         .organizer__title
           | Sunny Datko
         .organizer__social
-          a.icon.icon--github(href="https://github.com/wishinghand" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/wishinghand" target="_blank")
+          a.icon.icon--github(href="https://github.com/sunnydatko" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/sunnydatko" target="_blank")
 
       .organizer.organizer--last
         img.organizer__image(src="~static/img/valerie.jpg" alt="Valerie Smith")
         .organizer__title
           | Valerie Smith
         .organizer__social
-          a.icon.icon--github(href="https://github.com/shentao" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/damiandulisz" target="_blank")
+          a.icon.icon--github(href="https://github.com/ValHalla358" target="_blank")
+          //- a.icon.icon--twitter(href="https://twitter.com/damiandulisz" target="_blank")
 
       .organizer__company
         .organizer__content

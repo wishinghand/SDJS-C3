@@ -10,7 +10,7 @@
     .half.text-left
       h2: strong Learn Academy
       p
-        | The hackathon (September 15-16) will take place in the
+        | The Community Code Challenge (September 16) will take place in the
         strong  Learn Academy 
         | Campus, near the heart of downtown San Diego.
 

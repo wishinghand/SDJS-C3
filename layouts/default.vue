@@ -1,12 +1,10 @@
 <template>
 <div>
-  <input id="burger-target" type="checkbox"/>
   <navbar></navbar>
 
   <nuxt></nuxt>
 
   <footer-section></footer-section>
-  <!-- <cookies/> -->
 </div>
 </template>
 

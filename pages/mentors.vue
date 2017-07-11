@@ -8,7 +8,7 @@
 
     .center
       nuxt-link(to="/program")
-        button.button.speaker-button Read about the talks
+        //- button.button.speaker-button Read about the talks
 
     h2
       | And more to come!
@@ -18,13 +18,12 @@
       include:markdown-it ../content/mentors/cfp.md
 
       a.post-section__button.button(
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdtbxBpV0j_zCnELXQuIkeGH8x6gaOWE0J8tTsAdpa0O5MYOw/viewform"
-        target="_blank"
+         href="mailto:code_challenge@sandiegojs.org"
       )
-        | Apply as a speaker
+        | Apply as a mentor
 
       p.post-section__paragraph
-        | We will come back to you within a few days.
+        | We get back to you within a few days.
 </template>
 
 <script>

@@ -6,20 +6,17 @@ footer.footer
         h3.footer__header Contact
         li
           | Twitter:
-          = ' '
           a(href="https://twitter.com/sandiegojs" target="_blank")
-            span.at sandiegojs
+            span @sandiegojs
         li
           | Email:
-          a  code_challenge
-            span.at sandiegojs.org
+          a(href="mailto:code_challenge@sandiegojs.org")  code_challenge@sandiegojs.org
       ul.footer__list.footer__list--small
         h3.footer__header Useful links
         li: nuxt-link(to="/mentors") Mentors
-        //- li: nuxt-link(to="/program") Program
-        li: nuxt-link(to="/workshops") Workshops
-        li: nuxt-link(to="/terms") Terms & Conditions
+        li: nuxt-link(to="/sponsorship") Sponsorship
         li: nuxt-link(to="/codeofconduct") Code of Conduct
+        li: nuxt-link(to="/terms") Terms & Conditions
         li: nuxt-link(to="/privacypolicy") Privacy Policy
 
     .footer__bottom
@@ -111,7 +108,4 @@ footer.footer
   line-height: 1
   margin-top: 0
   color: #9D9D9D
-
-span.at:before
-  content: '@'
 </style>

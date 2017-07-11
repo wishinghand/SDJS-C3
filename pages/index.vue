@@ -4,15 +4,14 @@ div
 
   .container
     .container__inner.section.post-section
-      h1 Mentors
-      mentors-list(:mentors="mentors")
-      .center
-        //- nuxt-link(to="/mentors")
-          //- button.button.speaker-button Get to know them
+      //- h1 Mentors
+      //- mentors-list(:mentors="mentors")
+      //- .center
+      //-   nuxt-link(to="/mentors")
+      //-     button.button.speaker-button Get to know them
     tickets-section#tickets
     venue-section
     //- newsletter-section
-
     sponsors-section
     organizers-section
 </template>
@@ -21,7 +20,6 @@ div
 import MentorsList from '~components/MentorsList'
 import HeroSection from '~components/Hero'
 import OrganizersSection from '~components/Organizers'
-import SubmitTalks from '~components/SubmitTalks'
 import TicketsSection from '~components/Tickets'
 import VenueSection from '~components/Venue'
 import SponsorsSection from '~components/Sponsors'
@@ -32,7 +30,6 @@ export default {
     HeroSection,
     OrganizersSection,
     MentorsList,
-    SubmitTalks,
     SponsorsSection,
     TicketsSection,
     VenueSection
