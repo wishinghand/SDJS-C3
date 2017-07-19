@@ -8,7 +8,7 @@
       img(src="~static/img/learnAcademy-1.jpg" alt="Learn Academy, San Diego")
       img(src="~static/img/learnAcademy-2.jpg" alt="Learn Academy, San Diego")
     .half.text-left
-      h2: strong Learn Academy
+      h2: strong #[a(href="https://www.learnacademy.org/") Learn Academy]
       p
         | The Community Code Challenge (September 16) will take place in the
         strong  Learn Academy 

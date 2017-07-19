@@ -35,7 +35,7 @@ export default {
     VenueSection
   },
   head: {
-    title: 'SDJS Community Code Challenge'
+    title: 'SDJS Community Code Challenge 2017'
   },
   data () {
     return {

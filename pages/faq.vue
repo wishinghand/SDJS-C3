@@ -25,7 +25,7 @@
 <script>
 export default {
   head: {
-    title: 'Code of Conduct | SDJS Community Code Challenge'
+    title: 'FAQ | SDJS Community Code Challenge'
   }
 }
 </script>

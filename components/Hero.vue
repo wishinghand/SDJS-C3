@@ -8,8 +8,9 @@
         h2 Rise of the (chat)Bots!
         hr
 
+      h2.hero-banner__subheader Hosted By:
       h2.hero-banner__subheader
-        strong Learn Academy
+        strong #[a(href="https://www.learnacademy.org/") Learn Academy]
         br
         | 9:30 AM to 9:30 PM
         br

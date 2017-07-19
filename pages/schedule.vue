@@ -14,6 +14,9 @@
 </template>
 <script>
 export default {
+  head: {
+    title: 'Schedule | SDJS Community Code Challenge'
+  }
 }
 </script>
 

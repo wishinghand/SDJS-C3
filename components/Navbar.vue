@@ -1,7 +1,10 @@
 <template lang="pug">
 .navbar(:class="isOpen && 'open'")
   .navbar__container
-    nuxt-link.navbar__logo(to="/")
+    //- nuxt-link.navbar__logo(to="/")
+    a.organizers__logo(href="http://sandiegojs.org" target="_blank")
+            | sanDiego
+            span.logo-accent .js
 
     button.navbar__burger(type="button", @click="toggle")
         .bar
@@ -23,7 +26,6 @@
         li.navbar-nav__item
           a.button(
             href="https://events.zippydesk.com/vueconf-2017/register",
-            @click="trackTicketsEvent"
           )
             | Get tickets
 </template>
@@ -38,15 +40,6 @@
     methods: {
       toggle () {
         this.isOpen = !this.isOpen
-      },
-      trackTicketsEvent (event) {
-        ga('send', 'event', {
-          eventAction: 'click',
-          eventLabel: event.target.href,
-          eventCategory: 'Tickets link',
-          transport: 'beacon'
-        })
-        _pq.push(['track', 'GoToTickets'])
       }
     }
   }
@@ -77,9 +70,9 @@
     justify-content: space-between
 
   .navbar__logo
-    background-image: url('~assets/vueconf_logo.svg')
-    background-size: contain
-    background-repeat: no-repeat
+    // background-image: url('~assets/vueconf_logo.svg')
+    // background-size: contain
+    // background-repeat: no-repeat
     width: 260px
     height: 40px
 
