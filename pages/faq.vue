@@ -18,7 +18,16 @@
       - Q: What is a chat bot?
         - A: From Wikipedia- A chatbot is a computer program which conducts a conversation via auditory or textual methods. Such programs are often designed to convincingly simulate how a human would behave as a conversational partner, thereby passing the Turing test. Chatbots are typically used in dialog systems for various practical purposes including customer service or information acquisition. Some chatbots use sophisticated natural language processing systems, but many simpler systems scan for keywords within the input, then pull a reply with the most matching keywords from a database.
 
-      - Q: What if I or my company is interested in sponsoring?
+      - Q: Will there be swag?
+        - A: Stay tuned...
+
+      - Q: What are the prizes?
+        - A: A Seeedstudio Grove v3 Starter Kit for Arduino. It's a hardware kit for learning more about robotics.
+
+      - Q: How will the prizes be awarded?
+        - A: The categories are: Most Original, Best UX/UI Design, and a Community Vote where the attendees vote on their favorite.
+
+       - Q: What if I or my company is interested in sponsoring?
         - A: We have information about that on our [sponsorship page here](/sponsorship).
 
 </template>

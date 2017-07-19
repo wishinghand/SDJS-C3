@@ -6,6 +6,7 @@
       | Venue
     .half
       img(src="~static/img/learnAcademy-1.jpg" alt="Learn Academy, San Diego")
+      img.host_logo(src="~static/img/LEARN_logo.png" alt="Learn Academy logo")
       img(src="~static/img/learnAcademy-2.jpg" alt="Learn Academy, San Diego")
     .half.text-left
       h2: strong #[a(href="https://www.learnacademy.org/") Learn Academy]
@@ -48,4 +49,7 @@ export default {
     margin-top: 20px
     font-weight: 400
     font-size: 16px
+
+  .host_logo
+    width: 400px
 </style>

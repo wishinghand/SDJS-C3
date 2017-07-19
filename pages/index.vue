@@ -11,7 +11,6 @@ div
       //-     button.button.speaker-button Get to know them
     tickets-section#tickets
     venue-section
-    //- newsletter-section
     sponsors-section
     organizers-section
 </template>

@@ -1,6 +1,6 @@
 {
-  "name": "VueConf 2017",
-  "short_name": "VueConf",
+  "name": "SanDiego.js Community Code Challenge 2017",
+  "short_name": "SDJS-C3",
   "icons": [{
       "src": "/img/logo-120.png",
       "sizes": "120x120",
@@ -25,5 +25,5 @@
   "start_url": "/",
   "background_color": "#fff",
   "display": "standalone",
-  "theme_color": "#3EB882"
+  "theme_color": "#1884c3"
 }

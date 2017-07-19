@@ -12,8 +12,7 @@
         span.ticket__date {{ ticket.date }}
       a.button.button--dark.ticket__price(
         :disabled="ticket.disabled"
-        href="https://events.zippydesk.com/vueconf-2017/register",
-        @click="trackTicketsEvent"
+        href="https://www.eventbrite.com/e/sandiegojs-community-code-challenge-2017-tickets-36116433224"
       )
         | {{ ticket.price }}
 </template>
@@ -28,15 +27,7 @@ export default {
     }
   },
   methods: {
-    trackTicketsEvent (event) {
-      ga('send', 'event', {
-        eventAction: 'click',
-        eventLabel: event.target.href,
-        eventCategory: 'Tickets link',
-        transport: 'beacon'
-      })
-      _pq.push(['track', 'GoToTickets'])
-    }
+
   }
 }
 </script>

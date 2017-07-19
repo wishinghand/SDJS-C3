@@ -11,10 +11,9 @@
 <script>
 import Navbar from '~components/Navbar'
 import FooterSection from '~components/Footer'
-import Cookies from '~components/Cookies'
 
 export default {
-  components: { Navbar, FooterSection, Cookies },
+  components: { Navbar, FooterSection},
   head: {
     meta: [
       { charset: 'utf-8' },

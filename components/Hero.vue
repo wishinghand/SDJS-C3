@@ -6,18 +6,21 @@
         .robot-emoji 🤖
         h1 #[strong Community Code Challenge]
         h2 Rise of the (chat)Bots!
+        .robot-emoji 👩‍💻 👾👨‍💻
+        br
+        h2.hero-banner__subheader The first official SanDiegoJS Community Code Challenge!
         hr
 
+
       h2.hero-banner__subheader Hosted By:
+      a(href="https://www.learnacademy.org/")
+        img.host_logo(src="~static/img/LEARN_logo.png" alt="Learn Academy logo")
       h2.hero-banner__subheader
-        strong #[a(href="https://www.learnacademy.org/") Learn Academy]
         br
         | 9:30 AM to 9:30 PM
         br
         | San Diego, California • September 16, 2017
-      h2.hero-banner__subheader.hero-banner__subheader--last
-        | The first official SanDiegoJS Community Code Challenge!
-      a.post-section__button.button(href="https://events.zippydesk.com/vueconf-2017/register", @click="trackTicketsEvent")
+      a.post-section__button.button(href="https://www.eventbrite.com/e/sandiegojs-community-code-challenge-2017-tickets-36116433224")
         | Get the tickets!
 </template>
 
@@ -49,8 +52,8 @@ export default {
 hr
   width: 25%
   height: 0
-  border: 3px solid $color-green--dark
-  margin: 4rem auto
+  border: 2px solid $color-green--dark
+  margin: 3rem auto
 
 h1
   margin-bottom: 2rem
@@ -72,6 +75,9 @@ h1
 
   .post-section__button
     margin: 25px 0
+
+.host_logo
+  width: 20%;
 
 .hero-banner__content
   padding-top: 100px

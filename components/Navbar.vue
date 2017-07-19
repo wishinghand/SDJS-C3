@@ -2,7 +2,7 @@
 .navbar(:class="isOpen && 'open'")
   .navbar__container
     //- nuxt-link.navbar__logo(to="/")
-    a.organizers__logo(href="http://sandiegojs.org" target="_blank")
+    a.organizers__logo(href="/")
             | sanDiego
             span.logo-accent .js
 
@@ -25,7 +25,7 @@
 
         li.navbar-nav__item
           a.button(
-            href="https://events.zippydesk.com/vueconf-2017/register",
+            href="https://www.eventbrite.com/e/sandiegojs-community-code-challenge-2017-tickets-36116433224"
           )
             | Get tickets
 </template>
