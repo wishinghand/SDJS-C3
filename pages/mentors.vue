@@ -18,7 +18,7 @@
       include:markdown-it ../content/mentors/cfp.md
 
       a.post-section__button.button(
-         href="mailto:code_challenge@sandiegojs.org"
+         href="sandiegojavascript@gmail.com"
       )
         | Apply as a mentor
 

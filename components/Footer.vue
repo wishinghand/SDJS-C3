@@ -10,7 +10,7 @@ footer.footer
             span @sandiegojs
         li
           | Email:
-          a(href="mailto:code_challenge@sandiegojs.org")  code_challenge@sandiegojs.org
+          a(href="mailto:sandiegojavascript@gmail.com")  sandiegojavascript@gmail.com
       ul.footer__list.footer__list--small
         h3.footer__header Useful links
         li: nuxt-link(to="/mentors") Mentors

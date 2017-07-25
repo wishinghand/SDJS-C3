@@ -81,7 +81,7 @@
       ## § 6
       ### COMPLAINTS
 
-      1. Complaints related to the tickets may be submitted electronically to the following e-mail address: [code_challenge@sandiegojs.org](mailto:code_challenge@sandiegojs.org).
+      1. Complaints related to the tickets may be submitted electronically to the following e-mail address: [sandiegojavascript@gmail.com](mailto:sandiegojavascript@gmail.com).
 
       2. SDJS shall respond to your complaint immediately, no later than within 14 days of receipt thereof, in the same form the complaint was filed.
 

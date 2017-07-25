@@ -23,7 +23,7 @@
 
       For the purpose of sale of tickets to the SDJS Community Code Challenge 2017, SDJS processes data set out in registration form (e.g. name, email, address, postal code, city, country), as well as information necessary to fulfill the payment process (e.g. credit card number).
 
-      You have a right to access your data and correct them, and to do it please contact us at [code_challenge@sandiegojs.org](mailto:code_challenge@sandiegojs.org).
+      You have a right to access your data and correct them, and to do it please contact us at [sandiegojavascript@gmail.com](mailto:sandiegojavascript@gmail.com).
 
       Submitting data is voluntary, however submitting some of them is necessary to use specific functionalities of the Website.
 
@@ -58,7 +58,7 @@
       ## § 5
       ### CONTACT
 
-      Whether you have any questions regarding cookies or personal data processing – do not hesitate to contact us at [code_challenge@sandiegojs.org](mailto:code_challenge@sandiegojs.org).
+      Whether you have any questions regarding cookies or personal data processing – do not hesitate to contact us at [sandiegojavascript@gmail.com](mailto:sandiegojavascript@gmail.com).
 </template>
 <script>
 export default {

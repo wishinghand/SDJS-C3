@@ -5,7 +5,7 @@
 
     p We’re still looking for sponsors.
     p Help us make it the best possible conference for the community.
-    a.button(href="mailto:code_challenge@sandiegojs.org") Contact us
+    a.button(href="mailto:sandiegojavascript@gmail.com") Contact us
     br
     a.button(href="/sponsorship") Why Become A Sponsor?
 </template>

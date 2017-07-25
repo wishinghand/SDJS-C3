@@ -76,7 +76,7 @@
     p.body-text Companies at the Mega and Giga levels will be able to customize their sponsorship packages. Companies at these levels may request to add their own perks as well. Giga and mega sponsors may also donate prizes in addition to the prizes awarded below.
 
     a.post-section__button.button(
-        href="mailto:code_challenge@sandiegojs.org"
+        href="mailto:sandiegojavascript@gmail.com"
       )
         | Sponsor Us!
 </template>
