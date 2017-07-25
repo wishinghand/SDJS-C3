@@ -10,9 +10,9 @@
 
       Whenever used in these Terms and Conditions (T&C), the following terms shall have the meaning defined hereinafter:
 
-      1. **Event** – SanDiegoJS Community Code Challenge 2017.
+      1. **Event** – San Diego JavaScript Community Code Challenge 2017.
 
-      2. **SDJS** – SanDiegoJS a San Diego based Javascript Meetup.com community.
+      2. **SDJS** – [San Diego JavaScript Community](http://sandiegojs.org/).
 
       3. **Website** – Documents authorizing to participate in the Event or an accompanying workshops, depending on the Ticket type.
 

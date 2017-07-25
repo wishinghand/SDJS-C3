@@ -10,9 +10,9 @@
 
       This Privacy Policy is created solely for informational purposes and is not an agreement. Whenever used in this Privacy Policy, the following terms shall have the meaning defined hereinafter:
 
-      SDJS – SDJS is in reference to SanDiegoJS, and San Diego based Javascript Meetup.com community.
+      SDJS – [San Diego JavaScript Community](http://sandiegojs.org/).
 
-      Website – official website of the SanDiegoJS Community Code Challenge 2017, available at [botchallenge.sandiegojs.org](botchallenge.sandiegojs.org).
+      Website – official website of the San Diego JavaScript Community Code Challenge 2017, available at [botchallenge.sandiegojs.org](botchallenge.sandiegojs.org).
 
       ## § 2
       ### PERSONAL DATA

@@ -20,14 +20,14 @@ footer.footer
         li: nuxt-link(to="/privacypolicy") Privacy Policy
 
     .footer__bottom
-      | Proudly supported by 
+      | Proudly supported by
       //- strong  SPONSORING COMPANY
-      //- |  and 
+      //- |  and
       a(href="http://sandiegojs.org/").footer__logo
-        | sanDiego
+        | sandiego
         span.logo-accent .js
       .footer__copyright
-        | Copyright 2016-2017 sanDiego.js  All rights reserved.
+        | Copyright 2016-2017 San Diego JavaScript Community  All rights reserved.
 </template>
 
 <style lang="sass">
@@ -52,6 +52,7 @@ footer.footer
   font-size: 1.25em
   font-weight: 700
   color: #777777
+  padding-left: 5px
 
 .logo-accent
   color: #1884C3

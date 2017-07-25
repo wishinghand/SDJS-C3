@@ -3,7 +3,7 @@
   .navbar__container
     //- nuxt-link.navbar__logo(to="/")
     a.organizers__logo(href="/")
-            | sanDiego
+            | sandiego
             span.logo-accent .js
 
     button.navbar__burger(type="button", @click="toggle")

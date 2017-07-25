@@ -43,12 +43,12 @@
             | Organized and supported by
 
           a.organizers__logo(href="http://sandiegojs.org" target="_blank")
-            | sanDiego
+            | sandiego
             span.logo-accent .js
 
     .organizers-more
       .organizers-more__text
-        | #[a(href="http://sandiegojs.org" target="_blank") SanDiego.js] is a 2700+ member strong community full of some amazing people who love JavaScript.
+        | #[a(href="http://sandiegojs.org" target="_blank") SDJS] is a 2700+ member strong community full of some amazing people who love JavaScript.
 </template>
 
 <script>
