@@ -6,7 +6,7 @@
     p
       | First come first served!
       br
-      | The number of tickets is limited - save your seat today and join the first SanDiego.js community code challenge.
+      | The number of tickets is limited - save your seat today and join the first San Diego JavaScript Community code challenge.
     .ticket(v-for="ticket in tickets")
       span.ticket__name {{ ticket.name }}
         span.ticket__date {{ ticket.date }}

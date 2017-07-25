@@ -3,15 +3,15 @@
   .container__inner.post-section
     h1.agenda__header Sponsor the Community Code Challenge
     h2 Why Sponsor?
-    p.body-text SanDiego.js is the biggest programming meetup in the San Diego area. We connect newcomers to established talent in the Javascript community. Sponsorship enables companies and organizations to interact directly with this talent pool through branded exposure opportunities. Contributing towards the success of our community challenge enables us to create bigger and better events in the years to come, so companies who partner with us can reach an increasingly wider pool of talent.
+    p.body-text San Diego JavaScript Community is the biggest programming meetup in the San Diego area. We connect newcomers to established talent in the Javascript community. Sponsorship enables companies and organizations to interact directly with this talent pool through branded exposure opportunities. Contributing towards the success of our community challenge enables us to create bigger and better events in the years to come, so companies who partner with us can reach an increasingly wider pool of talent.
 
-    p.body-text SanDiego.js is a 501(c)(3) nonprofit charity. Contributions to the SanDiego.js Community Bot Challenge are tax-deductible.
+    p.body-text San Diego JavaScript Community is a 501(c)(3) nonprofit charity. Contributions to the San Diego JavaScript Community Bot Challenge are tax-deductible.
 
     h2 How Can We Sponsor?
 
     p.body-text We are seeking companies to help build this event through financial support and mentorship. We also welcome donations of shirts, software licenses, programming eBooks, bags, stickers, and other “swag” for attendees
 
-    p.body-text Below are the different ways in which you can contribute to the SanDiego.js Community Bot Challenge.
+    p.body-text Below are the different ways in which you can contribute to the San Diego JavaScript Community Bot Challenge.
 
 
     div
