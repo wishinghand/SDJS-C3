@@ -3,10 +3,14 @@
     .hero-banner__content
       .hero
         //- logo-type
-        .robot-emoji 🤖
+        .robot-emoji
+          img(src="~static/img/robot.png")
         h1 #[strong Community Code Challenge]
         h2 Rise of the (chat)Bots!
-        .robot-emoji 👩‍💻 👾👨‍💻
+        .robot-emoji
+          img(src="~static/img/woman-programmer.png")
+          img(src="~static/img/alien.png")
+          img(src="~static/img/man-programmer.png")
         br
         h2.hero-banner__subheader The first official SanDiegoJS Community Code Challenge!
         hr
@@ -59,7 +63,11 @@ h1
   margin-bottom: 2rem
 
 .robot-emoji
-  font-size: 6rem
+  img
+    width: 30%
+
+    @media #{$medium-up}
+      width: 10%
 
 .hero-banner
   text-align: center
@@ -77,7 +85,10 @@ h1
     margin: 25px 0
 
 .host_logo
-  width: 20%;
+  width: 50%
+
+  @media #{$medium-up}
+    width: 20%
 
 .hero-banner__content
   padding-top: 100px
