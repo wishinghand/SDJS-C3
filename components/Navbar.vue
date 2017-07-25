@@ -16,9 +16,9 @@
         li.navbar-nav__item
           nuxt-link(to="/faq")
             | FAQ
-        //- li.navbar-nav__item
-        //-   nuxt-link(to="/mentors")
-        //-     | Mentors
+        li.navbar-nav__item
+          nuxt-link(to="/mentors")
+            | Mentors
         li.navbar-nav__item
           nuxt-link(to="/schedule")
             | Schedule

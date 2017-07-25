@@ -1,6 +1,6 @@
-# vueconf2
+# SDJS Community Code Challenge 2017
 
-> VueConf 2017
+> C3
 
 ## Build Setup
 

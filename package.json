@@ -1,8 +1,8 @@
 {
   "name": "vueconf2",
   "version": "1.0.0",
-  "description": "VueConf 2017",
-  "author": "Damian Dulisz <damian.dulisz@monterail.com>",
+  "description": "sanDiego.js Community Code Challenge 2017",
+  "author": "Jason Land <j@son.land>",
   "private": true,
   "dependencies": {
     "jstransformer-markdown-it": "^2.0.0",

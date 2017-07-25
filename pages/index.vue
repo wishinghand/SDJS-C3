@@ -4,11 +4,11 @@ div
 
   .container
     .container__inner.section.post-section
-      //- h1 Mentors
-      //- mentors-list(:mentors="mentors")
-      //- .center
-      //-   nuxt-link(to="/mentors")
-      //-     button.button.speaker-button Get to know them
+      h1 Mentors
+      mentors-list(:mentors="mentors")
+      .center
+        nuxt-link(to="/mentors")
+          button.button.speaker-button Get to know them
     tickets-section#tickets
     venue-section
     sponsors-section
