@@ -3,7 +3,7 @@
   .container__inner
     :markdown-it
       # TERMS AND CONDITIONS
-      ### OF THE www.conf.vuejs.org
+      ### of botchallenge.sandiegojs.org
 
       ## § 1
       ### DEFINITIONS
