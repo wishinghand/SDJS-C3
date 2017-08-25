@@ -2,6 +2,7 @@
 div
   hero-section
 
+  tickets-section#tickets
   .container
     .container__inner.section.post-section
       h1 Mentors
@@ -9,7 +10,7 @@ div
       .center
         nuxt-link(to="/mentors")
           button.button.speaker-button Get to know them
-    tickets-section#tickets
+    faq-section
     venue-section
     sponsors-section
     organizers-section
@@ -21,6 +22,7 @@ import HeroSection from '~components/Hero'
 import OrganizersSection from '~components/Organizers'
 import TicketsSection from '~components/Tickets'
 import VenueSection from '~components/Venue'
+import FaqSection from '~components/Faq'
 import SponsorsSection from '~components/Sponsors'
 import mentors from '../content/mentors/mentor-list'
 
@@ -29,6 +31,7 @@ export default {
     HeroSection,
     OrganizersSection,
     MentorsList,
+    FaqSection,
     SponsorsSection,
     TicketsSection,
     VenueSection

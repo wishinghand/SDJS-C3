@@ -108,8 +108,11 @@ export default {
 
 .organizers__logo
   color: $color-text
-  font-size: 3rem
+  font-size: 2rem
   font-weight: 700
+
+  @media screen and (min-width:639px)
+    font-size: 3rem
 
   .logo-accent
     color: #1884C3
